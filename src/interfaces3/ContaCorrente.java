@@ -1,12 +1,12 @@
 package interfaces3;
 
-public class ContaPoupanca implements Conta{
+public class ContaCorrente implements Conta {
 
     private int numero;
     private double saldo;
     private double limite;
 
-    public ContaPoupanca() {
+    public ContaCorrente() {
         System.out.println("Construindo uma conta!");
         this.saldo = saldo;
         this.limite = limite;
@@ -73,5 +73,4 @@ public class ContaPoupanca implements Conta{
     public void atualiza(double taxaSelic) {
 
     }
-
 }
